@@ -308,13 +308,13 @@ img {
 }
 
 .site-footer-container {
+  justify-content: flex-end;
   color: #fff;
 }
 
 .site-footer-text-box {
   display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
+   flex-direction: column;
   padding-top: 240px;
   padding-bottom: 240px;
   max-width: 490px;
@@ -352,6 +352,13 @@ img {
 
 .site-footer-button:hover {
   opacity: 0.8;
+}
+
+.horizontal-line{
+  width: 10px;
+  background: 3px solid #ea625c;
+vertical-align: middle;
+height: 3px;
 }
 
 .site-footer-link {
