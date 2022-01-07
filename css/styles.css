@@ -90,11 +90,19 @@ img {
   margin-bottom: 0;
 }
 
+.sitenav-list-item {
+  list-style: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  color: #333;
+}
+
 .sitenav-list-item-link {
   text-decoration: none;
 }
 
-.sitenav-list-item-link:not(:last-child) {
+.sitenav-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -106,13 +114,7 @@ img {
   opacity: 0.6;
 }
 
-.sitenav-list-item {
-  list-style: none;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 23px;
-  color: #333;
-}
+
 
 .site-help-question {
   font-weight: 400;
